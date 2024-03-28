@@ -1,10 +1,10 @@
 -> The WaterJug problem include 2 Jugs of different capacities(given) trying to acheive a "Desired capacity"(given) in one of the two Jugs, where there's unlimited supply of water.
 -> The solution is only Possible if either one of the capacities of the two jugs are less than the desired and the remainder of desired capacity when divided with gcd of the two jug capacities is ZERO 
+
 In this ALgorithm, We start from the first Jug 
-
-
 -> **ALGORITHM** :
       Initialise Step to 0, increment it every time you pour water in or out the Jugs (you can print the Steps)
+	
       step 1 : Take the inputs Jug1 capacity(j1) Jug2 capacity(j2) and desired quantity(d)
                 Check whether the problem is Solvzable or not if yes _continue_ else print 'No Solution'
       step 2: Operations to be Performed
